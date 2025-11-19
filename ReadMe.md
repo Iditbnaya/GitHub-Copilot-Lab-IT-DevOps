@@ -4,7 +4,7 @@
 
 This series trains IT administrators and DevOps practitioners to leverage GitHub Copilot across PowerShell, Python, YAML, Ansible, GitHub Actions, and language-to-language conversions. Each lab builds on prior work so participants finish with an end-to-end infrastructure automation pipeline while keeping roughly 60% of hands-on time in PowerShell, 20% in Python, and 20% in YAML/Ansible. Lab 1 introduces Copilot capabilities before the language-specific exercises.
 
-Participants will be guided to install the GitHub Copilot VS Code extension, follow a CodeTour to learn how to interact with GitHub Copilot, and then use GitHub Copilot to create and integrate PowerShell scripts, Python services, YAML configurations, Ansible playbooks, and GitHub Actions workflows.
+Participants will be guided to install the GitHub Copilot VS Code extension, to learn how to interact with GitHub Copilot, and then use GitHub Copilot to create and integrate PowerShell scripts, Python services, YAML configurations, Ansible playbooks, and GitHub Actions workflows.
 
 ## Prerequisites
 
@@ -13,10 +13,6 @@ Participants will be guided to install the GitHub Copilot VS Code extension, fol
 - Successful sign-in to GitHub within VS Code; review the [authentication troubleshooting guide](https://docs.github.com/en/enterprise-cloud@latest/copilot/troubleshooting-github-copilot/troubleshooting-issues-with-github-copilot-chat#troubleshooting-authentication-issues-in-your-editor) if needed.
 - Optional: CodeTour extension to follow guided walkthroughs.
 
-Filename | Description
---- | ---
-[1. setup.md](</.instructions/1. setup.md>) | Instructions for installing the GitHub Copilot VS Code extension and joining the GitHub Copilot trial.
-[2. getting started.md](</.instructions/2. getting started.md>) | Instructions for getting started with GitHub Copilot.
 
 ## Lab Roadmap
 
