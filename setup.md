@@ -33,8 +33,9 @@ Choose one of the following:
   1. Open the VS Code welcome screen.
   2. Select **Clone Git Repository**.
   3. Paste `https://github.com/Iditbnaya/GitHub-Copilot-Lab-IT-DevOps.git` and pick a local folder.
-- **Git Command Line**
+ ![alt text](docs/CloneRepo.gif)
 
+- **Git Command Line**
   ```bash
   git clone https://github.com/Iditbnaya/GitHub-Copilot-Lab-IT-DevOps.git
   cd GitHub-Copilot-Lab-IT-DevOps
@@ -60,10 +61,25 @@ Choose one of the following:
 5. Open Copilot Chat (`Ctrl+I`) and ask "What can you do?" to confirm chat access.
 
 ## 6. Prepare Local Runtimes
+Open the VS Code terminal (`Ctrl+``) and verify the following:
 
-- **PowerShell**: run `pwsh -Version` to verify PowerShell 7+. If unavailable, install from the link above.
+- **PowerShell**: run `$PSVersionTable.PSVersion` to verify PowerShell 7+.
+![alt text](image.png)
+  - If the **Major** version is 5, you are using Windows PowerShell, not PowerShell 7. If you have already installed PowerShell 7 but `pwsh` is not recognized, follow these steps:
+    1. Find where PowerShell 7 is installed (commonly `C:\Program Files\PowerShell\7`).
+    2. Add that folder to your system `PATH` environment variable:
+      - Open **System Properties** > **Advanced** > **Environment Variables**.
+      - Under **System variables**, select `Path` and click **Edit**.
+      - Click **New** and add the path to your PowerShell 7 folder (e.g., `C:\Program Files\PowerShell\7`).
+      - Click **OK** to save and close all dialogs.
+    3. Restart your terminal or VS Code.
+    4. Try running `pwsh -Version` again.
+  - For more help, see the [official installation guide](https://learn.microsoft.com/powershell/scripting/install/installing-powershell).
 - **Python**: run `python --version` and `pip --version` to confirm installation. Create a virtual environment if desired: `python -m venv .venv`.
-- **Optional tools**: install `kubectl`, `ansible-core`, and Docker Desktop if you plan to run the stretch goals locally.
+- **Optional tools** (install if you plan to run the stretch goals locally):
+  - **kubectl**: Kubernetes command-line tool for managing clusters. Download from [kubernetes.io/docs/tasks/tools](https://kubernetes.io/docs/tasks/tools/) and follow the installation instructions for your OS.
+  - **ansible-core**: Automation framework for configuration management. Install via pip: `pip install ansible-core`. See the [official installation guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) for more options.
+  - **Docker Desktop**: Containerization platform for running containers locally. Download from [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop/) and follow the setup wizard for Windows, macOS, or Linux.
 
 ## 7. Follow the Lab Sequence
 
