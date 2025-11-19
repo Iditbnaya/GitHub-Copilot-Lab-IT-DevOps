@@ -14,8 +14,7 @@ Your team is rolling out GitHub Copilot to infrastructure engineers who primaril
 ## Prerequisites
 
 - Active GitHub Copilot subscription tied to a GitHub identity that can access the training repository.
-- Visual Studio Code (latest stable build) with GitHub Copilot and GitHub Copilot Chat extensions installed.
-- CodeTour extension installed to follow the guided walkthrough (optional but recommended).
+- Visual Studio Code (latest stable build) with GitHub Copilot and GitHub Copilot 
 - Sample PowerShell and YAML snippets (provided in this repository under `samples/` or created ad hoc with Copilot).
 
 ## Exercise 1 – Verify Copilot Setup (20 min)
