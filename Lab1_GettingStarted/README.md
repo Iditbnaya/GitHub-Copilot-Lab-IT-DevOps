@@ -21,9 +21,8 @@ Your team is rolling out GitHub Copilot to infrastructure engineers who primaril
 ## Exercise 1 – Verify Copilot Setup (20 min)
 
 1. Open VS Code, sign into GitHub, and ensure the **Copilot** and **Copilot Chat** extensions are enabled.
-2. Run the CodeTour titled `00-introduction` (if provided) or follow the `setup.md` instructions to authenticate.
 3. Use the Command Palette (`Ctrl+Shift+P`) and run `GitHub Copilot: Toggle Copilot` to confirm status.
-4. Capture a screenshot or note confirming that inline suggestions appear when typing a simple PowerShell function.
+	- This quick toggle forces the extension to reconnect so you can verify authentication before investing time in the later automation labs.
 
 ## Exercise 2 – Inline Completions & Ghost Text (20 min)
 
