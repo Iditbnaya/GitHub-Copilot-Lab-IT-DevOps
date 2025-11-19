@@ -30,18 +30,6 @@ Participants will be guided to install the GitHub Copilot VS Code extension, to 
 - Local PowerShell 7+, Python 3.10+ with `ansible-core`, Docker Desktop (for runner/emulator targets).
 - Sample infrastructure target (VM, container, or emulator) with SSH access.
 
-## Suggested Schedule
-
-Day | Focus
---- | ---
-1 | Lab 1 – Getting Started with GitHub Copilot
-2 | Lab 2 – PowerShell automation fundamentals
-3 | Lab 3 – Python ingestion and enrichment
-4 | Lab 4 – YAML translation & validation
-5 | Lab 5 – Ansible roles and inventories
-6 | Lab 6 – GitHub Actions CI/CD pipeline
-7 | Lab 7 – Copilot Agents and orchestration review
-
 ## Assessment & Deliverables
 
 - PowerShell module and transcript showing Copilot-assisted iteration.
