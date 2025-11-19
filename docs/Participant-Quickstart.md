@@ -11,18 +11,19 @@ Use this checklist when you join the **GitHub Copilot Lab for IT & DevOps**. It 
 ## 2. Install Required Software
 
 1. Install the latest Visual Studio Code from [code.visualstudio.com](https://code.visualstudio.com/Download).
-2. Install Git:
-   - Windows: download from [git-scm.com](https://git-scm.com/download/win) and accept default settings (ensure "Git from the command line" is enabled).
-   - macOS: install Xcode Command Line Tools (`xcode-select --install`) or download from git-scm.
-   - Linux: use your package manager (`sudo apt install git`, `sudo dnf install git`, etc.).
-3. Install PowerShell 7 if you will run PowerShell labs locally:
+1. Install Git:
 
-  - **Windows (recommended)**: open an elevated PowerShell window and run `winget install --id Microsoft.PowerShell --source winget`. Restart your shell so the new `pwsh` command is available.
-  - **Windows (offline alternative)**: download the `.msi` installer from [aka.ms/powershell-release](https://aka.ms/powershell-release), choose the x64 package, and check the option to add PowerShell to the system `PATH` during setup.
-  - **macOS**: install via Homebrew with `brew install --cask powershell`, then start it with `pwsh`.
-  - **Linux**: follow the distribution-specific instructions on the [official installation guide](https://learn.microsoft.com/powershell/scripting/install/installing-powershell) (for example, `sudo apt-get install -y powershell` on Ubuntu after adding the Microsoft repository).
+    - Windows: download from [git-scm.com](https://git-scm.com/download/win) and accept default settings (ensure "Git from the command line" is enabled).
+    - macOS: install Xcode Command Line Tools (`xcode-select --install`) or download from git-scm.
+    - Linux: use your package manager (`sudo apt install git`, `sudo dnf install git`, etc.).
+1. Install PowerShell 7 if you will run PowerShell labs locally:
 
-4. Install Python 3.10 or later from [python.org](https://www.python.org/downloads/) and ensure `python`/`pip` are on your `PATH`.
+    - **Windows (recommended)**: open an elevated PowerShell window and run `winget install --id Microsoft.PowerShell --source winget`. Restart your shell so the new `pwsh` command is available.
+    - **Windows (offline alternative)**: download the `.msi` installer from [aka.ms/powershell-release](https://aka.ms/powershell-release), choose the x64 package, and check the option to add PowerShell to the system `PATH` during setup.
+    - **macOS**: install via Homebrew with `brew install --cask powershell`, then start it with `pwsh`.
+    - **Linux**: follow the distribution-specific instructions on the [official installation guide](https://learn.microsoft.com/powershell/scripting/install/installing-powershell) (for example, `sudo apt-get install -y powershell` on Ubuntu after adding the Microsoft repository).
+
+1. Install Python 3.10 or later from [python.org](https://www.python.org/downloads/) and ensure `python`/`pip` are on your `PATH`.
 
 ## 3. Clone the Training Repository
 
