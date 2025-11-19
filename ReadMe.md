@@ -11,6 +11,7 @@ Participants will be guided to install the GitHub Copilot VS Code extension, to 
 - Active GitHub Copilot subscription associated with your GitHub account.
 - Latest Visual Studio Code release installed from [code.visualstudio.com](https://code.visualstudio.com/Download?ref_product=copilot&ref_type=engagement&ref_style=text).
 - Successful sign-in to GitHub within VS Code; review the [authentication troubleshooting guide](https://docs.github.com/en/enterprise-cloud@latest/copilot/troubleshooting-github-copilot/troubleshooting-issues-with-github-copilot-chat#troubleshooting-authentication-issues-in-your-editor) if needed.
+- New to GitHub, VS Code, or Copilot? Follow the step-by-step [Participant Quickstart](docs/Participant-Quickstart.md) before Lab 1.
 
 
 ## Lab Roadmap
@@ -49,6 +50,8 @@ Participants will be guided to install the GitHub Copilot VS Code extension, to 
 ## Repository Layout
 
 ```text
+├── docs
+│   └── Participant-Quickstart.md
 ├── Lab1_GettingStarted
 ├── Lab1_PowerShell
 ├── Lab2_Python
