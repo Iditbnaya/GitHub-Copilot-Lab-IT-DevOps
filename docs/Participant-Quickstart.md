@@ -19,7 +19,7 @@ Use this checklist when you join the **GitHub Copilot Lab for IT & DevOps**. It 
 1. Install PowerShell 7 if you will run PowerShell labs locally:
 
     - **Windows (recommended)**: open an elevated PowerShell window and run `winget install --id Microsoft.PowerShell --source winget`. Restart your shell so the new `pwsh` command is available.
-    - **Windows (offline alternative)**: download the `.msi` installer from [aka.ms/powershell-release](https://aka.ms/powershell-release), choose the x64 package, and check the option to add PowerShell to the system `PATH` during setup.
+    - **Windows (download alternative)**: download the `.msi` installer from https://github.com/PowerShell/PowerShell/releases/download/v7.5.4/PowerShell-7.5.4-win-x64.msi
     - **macOS**: install via Homebrew with `brew install --cask powershell`, then start it with `pwsh`.
     - **Linux**: follow the distribution-specific instructions on the [official installation guide](https://learn.microsoft.com/powershell/scripting/install/installing-powershell) (for example, `sudo apt-get install -y powershell` on Ubuntu after adding the Microsoft repository).
 
