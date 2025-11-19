@@ -11,7 +11,6 @@ Participants will be guided to install the GitHub Copilot VS Code extension, to 
 - Active GitHub Copilot subscription associated with your GitHub account.
 - Latest Visual Studio Code release installed from [code.visualstudio.com](https://code.visualstudio.com/Download?ref_product=copilot&ref_type=engagement&ref_style=text).
 - Successful sign-in to GitHub within VS Code; review the [authentication troubleshooting guide](https://docs.github.com/en/enterprise-cloud@latest/copilot/troubleshooting-github-copilot/troubleshooting-issues-with-github-copilot-chat#troubleshooting-authentication-issues-in-your-editor) if needed.
-- Optional: CodeTour extension to follow guided walkthroughs.
 
 
 ## Lab Roadmap
