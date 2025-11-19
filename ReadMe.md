@@ -2,9 +2,9 @@
 
 ## Overview
 
-This series trains IT administrators and DevOps practitioners to leverage GitHub Copilot across PowerShell, Python, YAML, Ansible, GitHub Actions, and language-to-language conversions. Each lab builds on prior work so participants finish with an end-to-end infrastructure automation pipeline while keeping roughly 60% of hands-on time in PowerShell, Python, and in YAML/Ansible.
+This series trains IT administrators and DevOps practitioners to leverage GitHub Copilot across PowerShell, Python, YAML, Ansible, GitHub Actions, and language-to-language conversions. Each lab builds on prior work so participants finish with an end-to-end infrastructure automation pipeline while keeping roughly 60% of hands-on time in PowerShell, 20% in Python, and 20% in YAML/Ansible.
 
-Participants will be guided to install the GitHub Copilot VS Code extension, to learn how to interact with GitHub Copilot, and then use GitHub Copilot to create and integrate PowerShell scripts, Python services, YAML configurations, Ansible playbooks, and GitHub Actions workflows.
+Participants will be guided to install the GitHub Copilot VS Code extension, follow the [Participant Quickstart](docs/Participant-Quickstart.md) for first-time setup, and then use GitHub Copilot to create and integrate PowerShell scripts, Python services, YAML configurations, Ansible playbooks, and GitHub Actions workflows.
 
 ## Prerequisites
 
