@@ -57,16 +57,23 @@ Do you know what this script does?
 ```
 Explain in plain English what this PowerShell script does?
 ```
+3. Run the script and check if you see files in the SystemReport folder.
 
 ## Exercise 3 – Agent mode
 
-1. Open Agent mode - and ask copilot  "Add detailed comments to this script.". 
-2. ask copilot to "Refactor and optimize this script."
-3. Review the changes and keep them.
-3. Ask Copilot to help you persist results as JSON and CSV files (using `ConvertTo-Json` and `Export-Csv`).
-4. Ask copilot to ensure non-zero exit codes on failures create logs under `./logs` folder.
-4. Run the script and check if you see files in the SystemReport folder.
-5. Run the script (f5) - do you see a new folder named SystemReport with files inside?
-6. check if you see Data in all csv files create. if the summary file is empty ask github copilot why it is empty and fix it.
+1. Change to  Agent mode - and ask copilot 
+```
+Add detailed comments to this script.
+```
+```
+Refactor and optimize this script.
+```
+2. Review the changes and keep them.
+3. Make sure the script is running.
+4. Ask Copilot to help you persist results as JSON
+```
+persist all results from csv files to one JSON file
+```
+4. Run the script and check if you see a json files with all the details in the SystemReport folder.
 
 Lab 1 is complete! Proceed to Lab 2 – Python Automation with Copilot.

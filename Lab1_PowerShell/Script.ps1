@@ -1,6 +1,6 @@
 param(
     [string[]]$ComputerNames,
-    [string]$OutputPath = ".\SystemReport"
+    [string]$OutputPath = (Join-Path $PSScriptRoot "SystemReport")
 )
 
 if (-not (Test-Path $OutputPath)) {
@@ -130,7 +130,11 @@ foreach ($computer in $ComputerNames) {
             }
         }
 
-        $services1 = Get-Service -ComputerName $computer -ErrorAction SilentlyContinue
+        if ($computer -eq $env:COMPUTERNAME -or $computer -eq "localhost" -or $computer -eq ".") {
+            $services1 = Get-Service -ErrorAction SilentlyContinue
+        } else {
+            $services1 = Invoke-Command -ComputerName $computer -ScriptBlock { Get-Service } -ErrorAction SilentlyContinue
+        }
         $services2 = Get-WmiObject -Class Win32_Service -ComputerName $computer -ErrorAction SilentlyContinue
 
         foreach ($s in $services1) {
@@ -172,8 +176,20 @@ foreach ($computer in $ComputerNames) {
 
         $cutoffDate = Get-Date
         $cutoffDate = $cutoffDate.AddDays(-1)
-        $eventsSystem = Get-EventLog -LogName System -ComputerName $computer -EntryType Error,Warning -After $cutoffDate -ErrorAction SilentlyContinue
-        $eventsApp = Get-EventLog -LogName Application -ComputerName $computer -EntryType Error,Warning -After $cutoffDate -ErrorAction SilentlyContinue
+        if ($computer -eq $env:COMPUTERNAME -or $computer -eq "localhost" -or $computer -eq ".") {
+            $eventsSystem = Get-EventLog -LogName System -EntryType Error,Warning -After $cutoffDate -ErrorAction SilentlyContinue
+            $eventsApp = Get-EventLog -LogName Application -EntryType Error,Warning -After $cutoffDate -ErrorAction SilentlyContinue
+        } else {
+            $eventsSystem = Invoke-Command -ComputerName $computer -ScriptBlock { 
+                param($cutoff)
+                Get-EventLog -LogName System -EntryType Error,Warning -After $cutoff -ErrorAction SilentlyContinue
+            } -ArgumentList $cutoffDate -ErrorAction SilentlyContinue
+            
+            $eventsApp = Invoke-Command -ComputerName $computer -ScriptBlock { 
+                param($cutoff)
+                Get-EventLog -LogName Application -EntryType Error,Warning -After $cutoff -ErrorAction SilentlyContinue
+            } -ArgumentList $cutoffDate -ErrorAction SilentlyContinue
+        }
 
         if ($eventsSystem) {
             foreach ($ev in $eventsSystem) {
