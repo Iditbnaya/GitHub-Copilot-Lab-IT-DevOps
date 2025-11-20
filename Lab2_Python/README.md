@@ -40,13 +40,13 @@ In this lab, you will use GitHub Copilot to:
 3. Open Copilot Chat (Ctrl+Shift+I) in **Agent mode** and ask:
 
    ```
-   Convert this PowerShell script to Python as system_report.py including  requirements.txt and place it in Lab2_python folder.
+   Convert this PowerShell script to Python as system_report.py including requirements.txt and place it in Lab2_python folder.
    ```
 
    *Allow Copilot to generate the initial Python code.*
 
 4. Review the Python code Copilot generates and accept the suggestions.
-5. Under the Lab2_Python folder Create a virtual environment in the terminal:
+5. Under the Lab2_Python folder Create a virtual environment in the terminal (ctrl+`)
 
    ```powershell
    python -m venv .venv
@@ -79,31 +79,19 @@ In this lab, you will use GitHub Copilot to:
 1. With `system_report.py` open, ask Copilot to:
 
    ```text
-   "Add error handling with try/except blocks"
+   Add error handling with try/except blocks
    ```
 
 2. Ask Copilot to:
 
    ```text
-   "Add logging to a file using Python's logging module"
+   Add logging to a file using Python's logging module
    ```
 
-3. Ask Copilot to:
+3. Run the script and test
 
-   ```text
-   "Save the system report to both JSON and CSV files"
-   ```
-
+4. Verify output files are created in the expected location.
    **Note:** This step is important for the next exercise. Make sure you have JSON and CSV files created.
-
-4. Run the script to test:
-
-   ```powershell
-   python system_report.py
-   ```
-
-5. Verify output files are created in the expected location.
-
 
 ## Exercise 4 – Create a Streamlit Dashboard
 
