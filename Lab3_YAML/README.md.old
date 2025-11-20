@@ -1,0 +1,134 @@
+# Lab 4 – YAML & Config Generation
+
+## Scenario
+
+You will use GitHub Copilot to transform structured data from your PowerShell and Python scripts into YAML configurations for automation workflows and configuration files.
+
+**The purpose of this lab is to learn how GitHub Copilot can help you:**
+
+- Convert between different data formats (JSON ⇄ YAML)
+- Generate configuration files for automation tools
+- Create reusable templates for infrastructure as code
+
+## Learning Goals
+
+- Use Copilot to convert formats (JSON to YAML and vice versa)
+- Generate GitHub Actions workflow configurations
+- Create configuration templates for automation pipelines
+
+## Prerequisites
+
+- Completed Lab 2 (PowerShell) and Lab 3 (Python)
+- JSON output files from previous labs
+- `yaml` VS Code extension (install from VS Code Extensions marketplace) - <https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml>
+
+## Exercise 1 – JSON to YAML Translation
+
+**Where to create your YAML file:**
+
+- Create a new file named `system_config.yaml` inside the `Lab3_YAML` folder.
+
+**Use Copilot to convert data formats:****
+
+1. Copy the Json file from Lab 2 or Lab 3 to the Lab3_YAML folder.
+2. Select the JSON content (Ctrl+A).
+3. Open Copilot Chat (Ctrl+Shift+I) and ask:
+
+   ```text
+   "Convert this JSON to clean, well-formatted YAML in to system_config.yaml"
+   ```
+
+4. stand on the yaml that was created
+Ask Copilot: "Add comments to explain each section of this YAML file"
+5. Verify the YAML is valid using the YAML extension:
+   - Check for green checkmarks in VS Code (no syntax errors)
+   - Look at the Problems panel (Ctrl+Shift+M) for any YAML validation issues
+   - The YAML extension will highlight syntax errors with red underlines
+
+Exit and close the yaml file
+
+## Exercise 2 – Configuration Templates
+
+**Use Copilot to generate configuration files:**
+
+1. Open Copilot chat and click on Add contex  
+![alt text](image.png)
+2. click on Files and folders and choose the lab3_YAML folder.
+3. in agent mode - Ask Copilot Chat:
+
+```
+   "Create a new file named `app_config.yaml` inside the `Lab3_YAML` folder with a configuration template for a system monitoring application with sections for:
+   - Thresholds (disk space, memory, CPU)
+   - Logging settings
+   - Alert recipients
+   - Schedule settings"
+```
+
+4. Review and customize the generated configuration.
+5. Ask Copilot to add validation comments or schemas to the YAML.
+
+## Exercise 3 – Docker Container Deployment
+
+**Use Copilot to create a Docker container for your configuration:**
+
+1. Open Copilot Chat (Ctrl+Shift+I) and ensure the `Lab3_YAML` folder is in context.
+2. Ask Copilot:
+
+   ```text
+   "Create a Dockerfile in the Lab3_YAML folder that:
+   - Uses a lightweight base image
+   - Copies the app_config.yaml file
+   - Sets up a simple monitoring application
+   - Exposes necessary ports"
+   ```
+
+3. Review the generated Dockerfile.
+4. Ask Copilot to create a `docker-compose.yml` file:
+
+   ```text
+   "Create a docker-compose.yml file that builds and runs this container with volume mounts for the configuration file"
+   ```
+
+5. Ask Copilot: "Add comments to the Dockerfile explaining each instruction"
+6. Test your Docker setup (if Docker is installed):
+   - Build: `docker-compose build`
+   - Run: `docker-compose up`
+
+## Exercise 4 – YAML to JSON Conversion
+
+## Exercise 4 – YAML to JSON Conversion
+
+**Practice reverse conversion:**
+
+1. Open your `system_config.yaml` file.
+2. Select all content and ask Copilot Chat:
+
+   ```text
+   "Convert this YAML back to JSON format"
+   ```
+
+3. Compare the original JSON with the converted version.
+4. Ask Copilot to explain any differences.
+
+## Copilot Prompt Sampler
+
+- "Add YAML anchors and aliases to reduce duplication in this configuration"
+- "Explain the difference between single-line and multi-line strings in YAML"
+- "Create a YAML schema for validating this configuration file"
+- "Convert this PowerShell hashtable to YAML format"
+
+## Validation Checklist
+
+- [ ] YAML files are properly formatted and valid
+- [ ] JSON to YAML conversion preserves all data
+- [ ] Configuration templates include helpful comments
+- [ ] GitHub Actions workflow is syntactically correct
+
+## Stretch Goals
+
+- Use Copilot to create a Docker Compose YAML file for your application
+- Ask Copilot to generate Azure Pipelines YAML configuration
+- Use Copilot to create a configuration validation script in Python
+- Generate Ansible inventory files in YAML format
+
+Lab 4 is complete! Proceed to Lab 5 – Ansible Automation with Copilot.

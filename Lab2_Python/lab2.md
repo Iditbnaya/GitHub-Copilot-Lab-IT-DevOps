@@ -3,28 +3,33 @@
 ## Scenario
 
 In the previous lab, you worked with a PowerShell script that:
+
 - Collected system information (disks, services, event logs)
 - Generated multiple CSV reports per computer
 - Built a summary CSV for all machines
 
-In this lab, you will ask GitHub Copilot to:
+In this lab, you will use GitHub Copilot to:
+
 - Generate an equivalent Python script
 - Improve the Python version step by step
 - Build a simple web dashboard using Streamlit to visualize system data
 
 **The purpose of this lab is to learn how GitHub Copilot can help you:**
+
 - Translate code between languages
 - Generate Python scripts and functions
 - Add features and improve code quality
 - Build web interfaces quickly
 
 ## Learning Goals
+
 - Use Copilot to translate PowerShell logic to Python
 - Prompt Copilot to add error handling and logging in Python
 - Generate data visualization and web UI code with Copilot
 - Leverage Copilot Chat for code explanations and improvements
 
 ## Prerequisites
+
 - Python 3.10+ installed
 - VS Code with Python & Copilot extensions
 - Completed Lab 1 (PowerShell) and have `Script.ps1` script
@@ -32,9 +37,10 @@ In this lab, you will ask GitHub Copilot to:
 ## Exercise 1 – Convert PowerShell to Python
 
 **Where to create your Python script:**
-- Create a new file named `system_report.py` in the **root directory** of this repository (same folder as `Script.ps1`).
 
-**Use Copilot Chat to translate:**
+- Create a new file named `system_report.py` inside the `Lab2_Python` folder.
+
+**Use Copilot Chat to translate:****
 
 1. Open your `Script.ps1` file in VS Code.
 2. Select all the PowerShell code (Ctrl+A).
@@ -108,12 +114,13 @@ In this lab, you will ask GitHub Copilot to:
 5. Verify output files are created in the expected location.
 
 
-## Exercise 3 – Create a Streamlit Dashboard
+## Exercise 4 – Create a Streamlit Dashboard
 
 **Where to create your dashboard:**
-- Create a new file named `dashboard.py` in the root directory.
 
-**Use Copilot Chat in Plan mode:**
+- Create a new file named `dashboard.py` inside the `Lab2_Python` folder.
+
+**Use Copilot Chat in Plan mode:****
 
 1. Make sure your context is the `system_report.py` script.
 2. Open Copilot Chat and switch to **Plan mode**.
@@ -177,5 +184,7 @@ In this lab, you will ask GitHub Copilot to:
 - Use Copilot to create unit tests for the main functions using pytest
 - Ask Copilot to add support for exporting data to Excel format with formatting
 - Use Copilot to add a configuration file (YAML or JSON) for script settings
+
+- Ask Copilot to add multi-threading for checking multiple remote systems
 
 Lab 3 is complete! Proceed to Lab 4 – YAML/Ansible Automation with Copilot.

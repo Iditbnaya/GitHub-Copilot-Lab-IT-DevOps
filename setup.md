@@ -55,25 +55,26 @@ Choose one of the following:
 5. Open Copilot Chat (`Ctrl+I`) and ask "What can you do?" to confirm chat access.
 
 ## 6. Prepare Local Runtimes
+
 Open the VS Code terminal (`Ctrl+~) and verify the following:
 
 $psversionTable.PSVersion
 
-  - If PowerShell 7 is installed correctly, you should see output similar to:
+- If PowerShell 7 is installed correctly, you should see output similar to:
 ![alt text](docs/image.png)
 
-  - If the **Major** version is 5, you are using Windows PowerShell, not PowerShell 7. If you have already installed PowerShell 7 but `pwsh` is not recognized, follow these steps:
-    1. Find where PowerShell 7 is installed (commonly `C:\Program Files\PowerShell\7`).
-    2. Add that folder to your system `PATH` environment variable:
-      - Open **System Properties** > **Advanced** > **Environment Variables**.
-      - Under **System variables**, select `Path` and click **Edit**.
-      - Click **New** and add the path to your PowerShell 7 folder (e.g., `C:\Program Files\PowerShell\7`).
-      - Click **OK** to save and close all dialogs.
-    3. Restart your terminal or VS Code.
-    4. Try running `$psversionTable.PSVersion` again.
-  - For more help, see the [official installation guide](https://learn.microsoft.com/powershell/scripting/install/installing-powershell).
-  - **ansible-core**: Automation framework for configuration management. Install via pip: `pip install ansible-core`. See the [official installation guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) for more options.
-  - **Docker Desktop**: Containerization platform for running containers locally. Download from [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop/) and follow the setup wizard for Windows, macOS, or Linux.
+- If the **Major** version is 5, you are using Windows PowerShell, not PowerShell 7. If you have already installed PowerShell 7 but `pwsh` is not recognized, follow these steps:
+  1. Find where PowerShell 7 is installed (commonly `C:\Program Files\PowerShell\7`).
+  2. Add that folder to your system `PATH` environment variable:
+  - Open **System Properties** > **Advanced** > **Environment Variables**.
+  - Under **System variables**, select `Path` and click **Edit**.
+  - Click **New** and add the path to your PowerShell 7 folder (e.g., `C:\Program Files\PowerShell\7`).
+  - Click **OK** to save and close all dialogs.
+  3. Restart your terminal or VS Code.
+  4. Try running `$psversionTable.PSVersion` again.
+- For more help, see the [official installation guide](https://learn.microsoft.com/powershell/scripting/install/installing-powershell).
+- **ansible-core**: Automation framework for configuration management. Install via pip: `pip install ansible-core`. See the [official installation guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) for more options.
+- **Docker Desktop**: Containerization platform for running containers locally. Download from [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop/) and follow the setup wizard for Windows, macOS, or Linux.
 
 ## 7. Follow the Lab Sequence
 
@@ -99,7 +100,9 @@ If you plan to share your work:
 5. Open a pull request on GitHub for review or archival.
 
 ## 9. Troubleshooting Tips
+
 ## Common Issues
+
 - **GitHub Copilot not responding**: Ensure you are signed in to GitHub and have an active Copilot subscription. Restart VS Code if necessary.
 - **PowerShell 7 not recognized**: Verify installation and ensure the installation path is added to your system `PATH`.
 - **Python or Ansible not found**: Confirm installations and that their executables are on your system `PATH`.
