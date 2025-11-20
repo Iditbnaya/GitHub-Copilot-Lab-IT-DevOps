@@ -35,27 +35,18 @@ In this lab, you will use GitHub Copilot to:
 - Completed Lab 1 (PowerShell) and have `Script.ps1` script
 
 ## Exercise 1 – Convert PowerShell to Python
-
-**Where to create your Python script:**
-
-- Create a new file named `system_report.py` inside the `Lab2_Python` folder.
-
-**Use Copilot Chat to translate:****
-
 1. Open your `Script.ps1` file in VS Code.
 2. Select all the PowerShell code (Ctrl+A).
 3. Open Copilot Chat (Ctrl+Shift+I) in **Agent mode** and ask:
 
-   ```text
-   "Convert this PowerShell script to Python."
+   ```
+   Convert this PowerShell script to Python as system_report.py including  requirements.txt and place it in Lab2_python folder.
    ```
 
    *Allow Copilot to generate the initial Python code.*
 
 4. Review the Python code Copilot generates and accept the suggestions.
-5. Ask Copilot: "What Python packages do I need to install for this script?"
-6. Ask Copilot to create a `requirements.txt` file with the needed packages.
-7. Create a virtual environment in the terminal:
+5. Under the Lab2_Python folder Create a virtual environment in the terminal:
 
    ```powershell
    python -m venv .venv
