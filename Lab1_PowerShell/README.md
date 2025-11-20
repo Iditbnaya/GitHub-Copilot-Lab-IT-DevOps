@@ -1,6 +1,6 @@
 # Lab 2 – PowerShell Automation with Copilot
 
-## Scenario
+## 🏛️Scenario
 
 An operations team needs a reusable PowerShell toolkit that audits disk usage, logs findings, and surfaces actionable alerts. Building on Lab 1, you will apply Copilot fundamentals to produce production-ready scripts that downstream labs (Python, YAML, and Ansible) will consume.
 
@@ -76,4 +76,4 @@ persist all results from csv files to one JSON file
 ```
 4. Run the script and check if you see a json files with all the details in the SystemReport folder.
 
-Lab 1 is complete! Proceed to Lab 2 – Python Automation with Copilot.
+🔥Lab 1 is complete! Proceed to Lab 2 – Python Automation with Copilot.
