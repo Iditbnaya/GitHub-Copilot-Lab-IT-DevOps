@@ -1,4 +1,4 @@
-# Lab 5 – GitHub Actions CI/CD Pipeline
+# Lab 4 – GitHub Actions CI/CD Pipeline
 
 ## Scenario
 Create a GitHub Actions Workflow with Copilot using the Ansible playbook from Lab 3 to automate web server deployment. You will learn how to leverage Copilot to generate CI/CD YAML configurations, integrate Ansible execution, and manage secrets.
