@@ -319,7 +319,7 @@ Ansible doesn't run natively on Windows. You must use WSL.
    localhost                  : ok=6    changed=4
 
    ```
-   
+
 8. **Verify the results**
 
  ```bash
@@ -369,5 +369,16 @@ Review the diffs and discuss:
 1. Did Copilot add tags consistently?
 2. Did it change anything you disagree with?
 
+- To stop the nginx web server that Ansible installed, you need to run the command in WSL
+
+```bash
+sudo systemctl stop nginx
+```
+
+- To start the nginx web server that Ansible installed, you need to run the command in WSL
+
+```bash
+sudo systemctl start nginx
+```
 
 Lab 3 is complete! Proceed to Lab 4 - GitHub Actions CI/CD with Copilot.
