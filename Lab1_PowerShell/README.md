@@ -45,30 +45,28 @@ Make sure in are in Edit mode and stand on the script file `DiskAudit.ps1`
 
 1. Ask Copilot to "Add ComputerName parameter to the PowerShell script and use it for remote execution"
 2. Ask Copilot to wrap the script in `Try/Catch` blocks.
-3. Ask Copilot to help you persist results as JSON and CSV files (using `ConvertTo-Json` and `Export-Csv`).
-4. Ask copilot to ensure non-zero exit codes on failures create logs under `./logs` folder.
-5. Close the script
+
 
 ## Exercise 3 – Ask mode
 
 1. Open script file script.ps1
-1. Open script file script.ps1
 Do you know what this script does?
-
 2. Change copilot mode to ask mode -make sure your context is the script file
-![alt text](image.png)
 
-4. "What are the main data sources this script uses (APIs, logs, etc.)?
+![alt text](image.png)
+```
+Explain in plain English what this PowerShell script does?
+```
 
 ## Exercise 3 – Agent mode
 
-3. Open Agent mode - and ask copilot  "Add detailed comments to this script."
-
-3. Open Agent mode - and ask copilot  “Add detailed comments to this script.”
-4. ask copilot to "Refactor and optimize this script."
-5. Review the changes and keep them.
-6. Run the script and check if you see files in the SystemReport folder.
-7. Run the script (f5) - do you see a new folder named SystemReport with files inside?
-8. check if you see Data in all csv files create. if the summary file is empty ask github copilot why it is empty and fix it.
+1. Open Agent mode - and ask copilot  "Add detailed comments to this script.". 
+2. ask copilot to "Refactor and optimize this script."
+3. Review the changes and keep them.
+3. Ask Copilot to help you persist results as JSON and CSV files (using `ConvertTo-Json` and `Export-Csv`).
+4. Ask copilot to ensure non-zero exit codes on failures create logs under `./logs` folder.
+4. Run the script and check if you see files in the SystemReport folder.
+5. Run the script (f5) - do you see a new folder named SystemReport with files inside?
+6. check if you see Data in all csv files create. if the summary file is empty ask github copilot why it is empty and fix it.
 
 Lab 1 is complete! Proceed to Lab 2 – Python Automation with Copilot.
