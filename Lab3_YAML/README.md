@@ -1,6 +1,6 @@
 # Lab 3 – YAML & Config Generation
 
-## Scenario
+## 🏛️Scenario
 
 You will use GitHub Copilot to transform structured data from your PowerShell and Python scripts into YAML configurations for automation workflows and configuration files.
 
@@ -27,13 +27,21 @@ You will use GitHub Copilot to transform structured data from your PowerShell an
 
 1. Copy the JSON file from Lab 1 (PowerShell) or Lab 2 (Python) in VS Code to the `Lab3_YAML` folder.
 2. Select all the JSON content (Ctrl+A)
-3. Open Copilot Chat (Ctrl+Shift+I) use Ask mode
-4. Ask: `"Convert this selected JSON to YAML format"`
+3. Open Copilot Chat (Ctrl+Shift+I) use Ask mode and ask: 
+
+```text
+Convert this selected JSON to YAML format
+```
+
 5. Create a new file named `system_config.yaml` inside the `Lab3_YAML` folder
 6. Copy the YAML output from Copilot Chat
 7. Paste the YAML content into the system_config.yaml file
 8. stand on the yaml that was created
-Ask Copilot: "Add comments to explain each section of this YAML file"
+Ask Copilot:
+
+```text
+Add comments to explain each section of this YAML file"
+```
 
 Exit and close the yaml file
 
@@ -147,4 +155,4 @@ Now that you've completed multiple exercises, document the most effective prompt
 - Use Copilot to create a YAML validation script in Python
 - Generate additional Ansible variables files for different deployment scenarios
 
-Lab 3 is complete! The YAML files you created (especially inventory.yaml and group_vars) will be used in Lab 4 – Ansible Automation with Copilot.
+🔥Lab 3 is complete! The YAML files you created (especially inventory.yaml and group_vars) will be used in Lab 4 – Ansible Automation with Copilot.
