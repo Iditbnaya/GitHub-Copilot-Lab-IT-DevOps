@@ -11,6 +11,13 @@ Participants will be guided to install the GitHub Copilot VS Code extension, fol
 - Successful sign-in to GitHub within VS Code; review the [authentication troubleshooting guide](https://docs.github.com/en/enterprise-cloud@latest/copilot/troubleshooting-github-copilot/troubleshooting-issues-with-github-copilot-chat#troubleshooting-authentication-issues-in-your-editor) if needed.
 - New to GitHub, VS Code, or Copilot? Follow the step-by-step [Setup.md](setup.md) before Lab 1.
 
+Installations required for local runtimes:
+
+1. [PowerShell 7+](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)
+2. [Python 3.10+](https://www.python.org/downloads/)
+3. [Ansible Core](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-core-with-pip) via `pip install ansible-core`
+4. [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+5. [YAML VSCode extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) by Red Hat
 
 ## Lab Roadmap
 
