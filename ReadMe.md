@@ -31,7 +31,7 @@ Participants will be guided to install the GitHub Copilot VS Code extension, fol
 
 ## Assessment & Deliverables
 
-- PowerShell module and transcript showing Copilot-assisted iteration.
+- PowerShell scripting showing Copilot-assisted iteration.
 - YAML configuration pack (Kubernetes, GitHub Actions, converted configs).
 - Ansible collection with roles, handlers, and inventories.
 - GitHub Actions workflow executing Ansible deployment.
@@ -43,13 +43,12 @@ Participants will be guided to install the GitHub Copilot VS Code extension, fol
 2. Request code explanations before modifications.
 3. Iterate via inline edits, then validate with lint/test tools.
 4. Use Copilot Chat to translate between PowerShell ⇄ YAML ⇄ Ansible.
-5. Capture prompts/responses for retrospective analysis.
+
 
 ## Repository Layout
 
 ```text
 ├── docs
-│   └── Participant-Quickstart.md
 ├── Lab1_GettingStarted
 ├── Lab1_PowerShell
 ├── Lab2_Python
@@ -57,10 +56,6 @@ Participants will be guided to install the GitHub Copilot VS Code extension, fol
 ├── Lab3_Ansible
 ├── Lab4_GitHub_Actions
 └── Lab5_Agents
-```
+├── Readme.md
+└── Setup.md
 
-## Completion Criteria
-
-- All lab checklists satisfied.
-- Automated pipeline demonstrated end-to-end.
-- Lessons learned documented for each language workflow.

@@ -4,9 +4,6 @@ Use this checklist when you join the **GitHub Copilot Lab for IT & DevOps**. It 
 
 ## 1. Prerequisites
 
-- GitHub account with an active Copilot subscription (request a trial if needed).
-- Reliable internet connection and permissions to install software on your workstation.
-- Optional but recommended: administrator rights to install PowerShell 7 and Git.
 
 ## 2. Install Required Software
 
@@ -29,19 +26,16 @@ Use this checklist when you join the **GitHub Copilot Lab for IT & DevOps**. It 
 
 Choose one of the following:
 
-- **VS Code UI**
   1. Open the VS Code welcome screen.
   2. Select **Clone Git Repository**.
   3. Paste `https://github.com/Iditbnaya/GitHub-Copilot-Lab-IT-DevOps.git` and pick a local folder.
  ![alt text](docs/CloneRepo.gif)
 
-- **Git Command Line**
   ```bash
   git clone https://github.com/Iditbnaya/GitHub-Copilot-Lab-IT-DevOps.git
   cd GitHub-Copilot-Lab-IT-DevOps
   ```
 
-- **GitHub Desktop**
   1. Click **File → Clone repository**.
   2. Search for `GitHub-Copilot-Lab-IT-DevOps` under the `Iditbnaya` account.
   3. Choose a local path and click **Clone**.
@@ -63,7 +57,6 @@ Choose one of the following:
 ## 6. Prepare Local Runtimes
 Open the VS Code terminal (`Ctrl+``) and verify the following:
 
-- **PowerShell**: run `$PSVersionTable.PSVersion` to verify PowerShell 7+.
 ![alt text](image.png)
   - If the **Major** version is 5, you are using Windows PowerShell, not PowerShell 7. If you have already installed PowerShell 7 but `pwsh` is not recognized, follow these steps:
     1. Find where PowerShell 7 is installed (commonly `C:\Program Files\PowerShell\7`).
@@ -75,8 +68,6 @@ Open the VS Code terminal (`Ctrl+``) and verify the following:
     3. Restart your terminal or VS Code.
     4. Try running `pwsh -Version` again.
   - For more help, see the [official installation guide](https://learn.microsoft.com/powershell/scripting/install/installing-powershell).
-- **Python**: run `python --version` and `pip --version` to confirm installation. Create a virtual environment if desired: `python -m venv .venv`.
-- **Optional tools** (install if you plan to run the stretch goals locally):
   - **kubectl**: Kubernetes command-line tool for managing clusters. Download from [kubernetes.io/docs/tasks/tools](https://kubernetes.io/docs/tasks/tools/) and follow the installation instructions for your OS.
   - **ansible-core**: Automation framework for configuration management. Install via pip: `pip install ansible-core`. See the [official installation guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) for more options.
   - **Docker Desktop**: Containerization platform for running containers locally. Download from [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop/) and follow the setup wizard for Windows, macOS, or Linux.
@@ -106,9 +97,6 @@ If you plan to share your work:
 
 ## 9. Troubleshooting Tips
 
-- If Copilot prompts are not responding, rerun `GitHub Copilot: Toggle Copilot` and confirm your subscription status at [github.com/settings/copilot](https://github.com/settings/copilot).
-- For VS Code authentication issues, review the [official troubleshooting guide](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-issues-with-github-copilot-chat#troubleshooting-authentication-issues-in-your-editor).
-- If extensions fail to install, check your corporate firewall/proxy settings or consult your IT policy for offline installs.
 
 ## 10. Ready for the Workshop
 
