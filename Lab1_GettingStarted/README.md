@@ -20,7 +20,7 @@ Your team is rolling out GitHub Copilot to infrastructure engineers who primaril
 ## Exercise 1 – Verify Copilot Setup (20 min)
 
 1. Open VS Code, sign into GitHub, and ensure the **Copilot** and **Copilot Chat** extensions are enabled.
-2. Review [text](../setup.md) in the root instructions folder to confirm you completed any required organization-specific prerequisites.
+2. Review [Setup.md](../setup.md) in the root instructions folder to confirm you completed any required organization-specific prerequisites.
 3. Use the Command Palette (`Ctrl+Shift+P`) and run `GitHub Copilot: Toggle Copilot` to confirm status.
    - This quick toggle forces the extension to reconnect so you can verify authentication before investing time in the later automation labs.
 
