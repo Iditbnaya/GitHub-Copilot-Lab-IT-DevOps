@@ -2,11 +2,10 @@
 
 ## Scenario
 
-In the previous lab, you worked with a PowerShell script that:
+In the previous lab, you worked with a PowerShell scripts to practice Github copilot Features:
 
-- Collected system information (disks, services, event logs)
-- Generated multiple CSV reports per computer
-- Built a summary CSV for all machines
+- Inline Command - Code ganerate and completion
+- Copilot Modes: Ask, Edit, Plan.Agent
 
 In this lab, you will use GitHub Copilot to:
 
@@ -35,11 +34,12 @@ In this lab, you will use GitHub Copilot to:
 - Completed Lab 1 (PowerShell) and have `Script.ps1` script
 
 ## Exercise 1 – Convert PowerShell to Python
+
 1. Open your `Script.ps1` file in VS Code.
 2. Select all the PowerShell code (Ctrl+A).
 3. Open Copilot Chat (Ctrl+Shift+I) in **Agent mode** and ask:
 
-   ```
+   ``` text
    Convert this PowerShell script to Python as system_report.py including requirements.txt and place it in Lab2_python folder.
    ```
 
@@ -52,25 +52,25 @@ In this lab, you will use GitHub Copilot to:
    python -m venv .venv
    ```
 
-8. Activate the virtual environment:
+6. Activate the virtual environment:
 
    ```powershell
    .\.venv\Scripts\Activate.ps1
    ```
 
-9. Install the packages from requirements.txt:
+7. Install the packages from requirements.txt:
 
    ```powershell
    pip install -r requirements.txt
    ```
 
-10. Run the script to verify it works:
+8. Run the script to verify it works:
 
     ```powershell
     python system_report.py
     ```
 
-11. Do you see the output files created in the expected location?
+9. Do you see the output files created in the expected location?
 
 ## Exercise 2 – Improve the Python Script
 
