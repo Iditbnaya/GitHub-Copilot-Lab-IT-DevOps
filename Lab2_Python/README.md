@@ -1,4 +1,4 @@
-# Lab 3 – Python Automation with Copilot
+# Lab 2 – Python Automation with Copilot
 
 ## Scenario
 

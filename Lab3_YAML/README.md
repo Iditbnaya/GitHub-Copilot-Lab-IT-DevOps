@@ -1,4 +1,4 @@
-# Lab 4 – YAML & Config Generation
+# Lab 3 – YAML & Config Generation
 
 ## Scenario
 

@@ -1,4 +1,4 @@
-# Lab 7 – GitHub Copilot Advanced Features & Security
+# Lab 6– GitHub Copilot Advanced Features & Security
 
 ## Scenario
 
