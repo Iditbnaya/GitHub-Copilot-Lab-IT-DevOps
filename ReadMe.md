@@ -31,7 +31,7 @@ Participants will be guided to install the GitHub Copilot VS Code extension, fol
 ## Assessment & Deliverables
 
 - PowerShell scripting showing Copilot-assisted iteration.
-- YAML configuration pack (Kubernetes, GitHub Actions, converted configs).
+- YAML configuration pack (GitHub Actions, converted configs).
 - Ansible collection with roles, handlers, and inventories.
 - GitHub Actions workflow executing Ansible deployment.
 - Agent conversation log and exported CI/CD plan.
