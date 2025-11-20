@@ -16,19 +16,16 @@ An operations team needs a reusable PowerShell toolkit that audits disk usage, l
 - VS Code with PowerShell & Copilot extensions.
 - Test machine or container with mock drives.
 
-## Exercise 1 – Baseline Audit Script
+## Exercise 1 –  Inline Completions & Ghost Text (20 min)
 
-**Where to create your PowerShell script:**
+- Create a new file named `DiskAudit.ps1` inside the `Lab1_PowerShell` folder.
 
-- Create a new file named `Script.ps1` inside the `Lab1_PowerShell` folder.
-
-**Inline Copilot** (start typing a comment or code and let Copilot suggest the change).
+**Inline Copilot** (start typing a comment and let Copilot suggest the change).
 
 1. Write a Comment in the script file (#):
 
  "#Generate a PowerShell script that lists disks, free space %, and flags volumes below 15% free."
-
-2.let copilot generate the script.
+2. Pause typing and observe Copilot's ghost text suggestion; accept with Tab if appropriate
 3. From the toolbar select Run - Run without debugging  or (F5) to  Run the script
 4. Use GitHub Copilot to add parameters for remote computer targets:
 
