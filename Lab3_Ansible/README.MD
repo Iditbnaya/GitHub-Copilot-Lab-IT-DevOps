@@ -38,6 +38,8 @@ You want to:
 - Ansible cannot run directly on Windows, in order to run the playbooks WSL is required - see Step 3 for details.
 
 ## 4. Lab Structure
+
+```text
 Lab3_Ansible/
 ├── ansible.cfg - Ansible configuration file - alredy in place
 ├── inventory - Ansible inventory file - (You'll create this manually)
@@ -55,6 +57,7 @@ Lab3_Ansible/
 └── .github/
     └── workflows/
         └── ansible-deploy.yml - GitHub Actions workflow file - (You'll create this with Copilot)
+```
 
 ## Step 1  - Create inventory and Main Playbook with Copilot
 
