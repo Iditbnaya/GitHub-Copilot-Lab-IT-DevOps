@@ -14,13 +14,12 @@ Participants will be guided to install the GitHub Copilot VS Code extension, fol
 
 ## Lab Roadmap
 
-1. [Lab 1 – Getting Started with GitHub Copilot](Lab1_GettingStarted/README.md)
-2. [Lab 2 – PowerShell Automation with Copilot](Lab1_PowerShell/README.md)
-3. [Lab 3 – Python Automation with Copilot](Lab2_Python/README.md)
-4. [Lab 4 – YAML & Config Generation](Lab2_YAML/README.md)
-5. [Lab 5 – Ansible Playbook with Copilot](Lab3_Ansible/README.md)
-6. [Lab 6 – GitHub Actions CI/CD](Lab4_GitHub_Actions/README.md)
-7. [Lab 7 – Copilot Agents](Lab5_Agents/README.md)
+1. [Lab 1 – PowerShell Automation with Copilot](Lab1_PowerShell/README.md)
+2. [Lab 2 – Python Automation with Copilot](Lab2_Python/README.md)
+3. [Lab 3 – YAML & Config Generation](Lab2_YAML/README.md)
+4. [Lab 4 – Ansible Playbook with Copilot](Lab3_Ansible/README.md)
+5. [Lab 5 – GitHub Actions CI/CD](Lab4_GitHub_Actions/README.md)
+6. [Lab 6 – Copilot Agents](Lab5_Agents/README.md)
 
 ## Environment Prerequisites
 
@@ -49,7 +48,6 @@ Participants will be guided to install the GitHub Copilot VS Code extension, fol
 
 ```text
 ├── docs
-├── Lab1_GettingStarted
 ├── Lab1_PowerShell
 ├── Lab2_Python
 ├── Lab2_YAML
