@@ -106,7 +106,7 @@ In this lab, you will use GitHub Copilot to:
 3. Ask Copilot to plan a Streamlit Dashboard:
 
    ```text
-   "Create a modern, colorful Streamlit dashboard to visualize system report data from CSV files, featuring interactive charts, metrics cards, and multi-page navigation for comprehensive IT infrastructure monitoring."
+   Create a modern, colorful Streamlit dashboard to visualize system report data from CSV files, featuring interactive charts, metrics cards, and multi-page navigation for comprehensive IT infrastructure monitoring.
    ```
 
 4. Review the plan that Copilot generates.
@@ -117,7 +117,7 @@ In this lab, you will use GitHub Copilot to:
 7. If needed, ask Copilot to update the `requirements.txt` file to include Streamlit:
 
    ```text
-   "Add streamlit and any visualization libraries to requirements.txt"
+   Add streamlit and any visualization libraries to requirements.txt
    ```
 
 8. Install the updated requirements:
@@ -163,7 +163,6 @@ In this lab, you will use GitHub Copilot to:
 - Use Copilot to create unit tests for the main functions using pytest
 - Ask Copilot to add support for exporting data to Excel format with formatting
 - Use Copilot to add a configuration file (YAML or JSON) for script settings
-
 - Ask Copilot to add multi-threading for checking multiple remote systems
 
-Lab 3 is complete! Proceed to Lab 4 – YAML/Ansible Automation with Copilot.
+Lab 2 is complete! Proceed to Lab 4 – YAML/Ansible Automation with Copilot.
