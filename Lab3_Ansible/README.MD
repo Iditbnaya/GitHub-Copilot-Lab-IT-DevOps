@@ -44,7 +44,7 @@ Lab3_Ansible/
 ├── ansible.cfg - Ansible configuration file - alredy in place
 ├── inventory - Ansible inventory file - (You'll create this manually)
 ├── site.yml - Main Ansible playbook - (You'll create this with Copilot)
-├── roles/
+├── roles/ - Ansible roles directory - (You'll create this with Copilot)
 │   └── webserver/
 │       ├── tasks/
 │       │   └── main.yml - Tasks for installing and configuring the web server
@@ -56,7 +56,7 @@ Lab3_Ansible/
 │           └── main.yml - Variables for the web server role
 └── .github/
     └── workflows/
-        └── ansible-deploy.yml - GitHub Actions workflow file - (You'll create this with Copilot)
+        └── ansible-deploy.yml - GitHub Actions workflow file - (You'll create this with Copilot in the next lab)
 ```
 
 ## Step 1  - Create inventory and Main Playbook with Copilot
