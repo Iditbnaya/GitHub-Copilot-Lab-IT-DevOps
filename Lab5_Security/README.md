@@ -70,48 +70,49 @@ You've completed building a full DevOps pipeline with scripts, configurations, a
    - Privilege escalation risks
    - Insecure file operations
    Provide specific line numbers and remediation steps"
+   Document all findings in SECURITY_AUDIT.md.
    ```
 
-3. Document all findings in SECURITY_AUDIT.md.
-4. For each vulnerability found, ask Copilot:
+3. Choose a CRITICAL Security Issue found, ask Copilot:
 
-   ```text
-   "Fix this security issue: [paste the problematic code]. Provide secure alternative with explanation"
-   ```
+```text
+"Fix the security Issue: [paste the problematic code]. Provide secure alternative with explanation"
+```
 
-5. Apply fixes to your scripts and document the changes.
+4. Apply fixes to your scripts
 
-## Exercise 3 – Python Security Hardening
+   ## Exercise 3 – Python Security Hardening
 
 **Secure your Python applications:**
 
 1. Open your Python scripts from Lab 2 and ask Copilot:
 
-   ```text
-   "Review this Python code for security vulnerabilities including:
-   - SQL injection (if database access exists)
-   - Command injection via subprocess
-   - Path traversal in file operations
-   - Insecure deserialization
-   - Unsafe use of eval/exec
-   - Missing input sanitization
-   - Dependency vulnerabilities
-   Provide fixes with secure coding patterns"
-   ```
+```text
+"Review this Python code for security vulnerabilities including:
+- SQL injection (if database access exists)
+- Command injection via subprocess
+- Path traversal in file operations
+- Insecure deserialization
+- Unsafe use of eval/exec
+- Missing input sanitization
+- Dependency vulnerabilities
+Provide fixes with secure coding patterns"
+Document all security improvements in SECURITY_AUDIT.md.
+
+```
 
 2. Ask Copilot to add input validation:
 
-   ```text
-   "Add comprehensive input validation to all functions that accept user input or external data. Use type hints and validation libraries"
-   ```
+```text
+"Add comprehensive input validation to all functions that accept user input or external data. Use type hints and validation libraries"
+ ```
 
 3. Ask Copilot to implement proper error handling:
 
-   ```text
-   "Review error handling and ensure sensitive information is not leaked in error messages. Add proper logging without exposing secrets"
-   ```
+```text
+ "Review error handling and ensure sensitive information is not leaked in error messages. Add proper logging without exposing secrets"
+ ```
 
-4. Document all security improvements in SECURITY_AUDIT.md.
 
 ## Exercise 4 – Secrets Management Implementation
 
@@ -119,9 +120,10 @@ You've completed building a full DevOps pipeline with scripts, configurations, a
 
 1. Ask Copilot Chat with `@workspace`:
 
-   ```text
+ ```text
    "Scan the entire workspace for hardcoded secrets, API keys, passwords, connection strings, and credentials. List all findings with file paths and line numbers"
-   ```
+
+ ```
 
 2. For each finding, ask Copilot:
 
@@ -145,6 +147,7 @@ You've completed building a full DevOps pipeline with scripts, configurations, a
    ```
 
 4. Create a `SECRETS_MANAGEMENT.md` guide documenting your approach.
+
 
 ## Exercise 5 – Workspace-Wide Code Quality Improvements
 
@@ -419,6 +422,6 @@ You've completed building a full DevOps pipeline with scripts, configurations, a
 - Comprehensive documentation
 - Prompt engineering mastery
 
-**You are now a GitHub Copilot Power User for DevOps!**
+**You are now a GitHub Copilot Power User**
 
 Continue practicing these patterns in your daily work, contribute to your team's knowledge base, and keep security at the forefront of everything you build.
