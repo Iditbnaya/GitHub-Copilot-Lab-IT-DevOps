@@ -22,9 +22,10 @@ An operations team needs a reusable PowerShell toolkit that audits disk usage, l
 
 **Inline Copilot** (start typing a comment and let Copilot suggest the change).
 
-1. Write a Comment in the script file (#):
-
+1. Copy the following Comment and paste in the script file:
+```
  "#Generate a PowerShell script that lists disks, free space %, and flags volumes below 15% free."
+```
 2. Pause typing and observe Copilot's ghost text suggestion; accept with Tab if appropriate
 3. From the toolbar select Run - Run without debugging  or (F5) to  Run the script
 4. Use GitHub Copilot to add parameters for remote computer targets:
