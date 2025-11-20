@@ -63,8 +63,7 @@ Lab3_Ansible/
 
 1. Create a Local Inventory under Lab3_Ansible folder
 
--Create a new  file - inventory
--type the following manually
+- Create a new  file named inventory and type the following manually
 
 ```text
 [web]
@@ -131,7 +130,7 @@ Use handlers and variables where appropriate.
 
 - You should get something like:
 
----
+```yaml
 # Tasks for webserver role
 
 - name: Install web server package
@@ -167,7 +166,7 @@ Use handlers and variables where appropriate.
     enabled: yes
   become: yes
 
----
+```
 
 3. handlers/main.yml
 Create a main.yml file under roles/webserver/handlers
@@ -318,24 +317,20 @@ Ansible doesn't run natively on Windows. You must use WSL.
    
    PLAY RECAP *****************************************************************
    localhost                  : ok=6    changed=4
-   ```
-
-8. **Verify the results**:
-
-   ```bash
-   # Check nginx is running:
-  
-   sudo systemctl status nginx
-   
-   # View the deployed HTML file
-
-   cat /var/www/html/index.html
-   
-   # Test the web server
-
-   curl http://localhost
 
    ```
+   
+8. **Verify the results**
+
+ ```bash
+# Check nginx is running:
+sudo systemctl status nginx
+# View the deployed HTML file
+cat /var/www/html/index.html
+# Test the web server
+curl http://localhost
+
+```
 
 ### Troubleshooting
 
