@@ -1,4 +1,4 @@
-# GitHub Copilot Lab – Participant Quickstart
+# 👷‍♂️GitHub Copilot Lab – First Setup
 
 Use this checklist when you join the **GitHub Copilot Lab for IT & DevOps**. It assumes no prior experience with GitHub, Visual Studio Code, or Copilot.
 
