@@ -165,4 +165,4 @@ In this lab, you will use GitHub Copilot to:
 - Use Copilot to add a configuration file (YAML or JSON) for script settings
 - Ask Copilot to add multi-threading for checking multiple remote systems
 
-Lab 2 is complete! Proceed to Lab 4 – YAML/Ansible Automation with Copilot.
+🔥Lab 2 is complete! Proceed to Lab 4 – YAML/Ansible Automation with Copilot.
