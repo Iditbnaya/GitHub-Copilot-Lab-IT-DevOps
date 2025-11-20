@@ -32,8 +32,10 @@ An operations team needs a reusable PowerShell toolkit that audits disk usage, l
 
 **Copilot Chat**
 
-Open Copilot Chat (Ctrl+Shift+I) and ask: "How do I add a ComputerName parameter to my PowerShell script and use it for remote execution?"
-
+Open Copilot Chat (Ctrl+Shift+I) and ask:
+```
+How do I add a ComputerName parameter to my PowerShell script and use it for remote execution?
+```
 - The goal is to learn how Copilot can help you refactor your script to accept remote computer names as input, and use PowerShell remoting to audit disks on those computers.
 
 ## Exercise 2 – Structured Logging & Error Handling
