@@ -1,7 +1,8 @@
 # Lab 4 – YAML & Config Generation
 
 ## Scenario
-You will transform structured data and infrastructure definitions into production-ready YAML configurations, covering the dedicated ~20% YAML/Ansible portion of the curriculum.
+You will transform structured data and infrastructure definitions into production-ready YAML configurations.
+
 
 ## Learning Goals
  
@@ -12,7 +13,7 @@ You will transform structured data and infrastructure definitions into productio
 ## Prerequisites
  
 - Results from Lab 2 – PowerShell Automation (JSON logs).
-- `yaml` VS Code extension or CLI (`yq`).
+- `yaml` VS Code extension (install from VS Code Extensions marketplace) - https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml
 
 ## Exercise 1 – JSON to YAML Translation
  

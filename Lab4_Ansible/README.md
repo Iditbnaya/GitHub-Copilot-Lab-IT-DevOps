@@ -1,7 +1,7 @@
 # Lab 5 – Ansible Playbook with Copilot
 
 ## Scenario
-Provision a web server fleet using Ansible, leveraging Copilot to scaffold roles, inventories, and handlers. This lab shares the YAML/Ansible 20% workload segment and converts outputs from the PowerShell (Lab 2), Python (Lab 3), and YAML (Lab 4) exercises into idempotent automation.
+Provision a web server fleet using Ansible, leveraging Copilot to scaffold roles, inventories, and handlers. This lab shares the YAML/Ansible he PowerShell (Lab 2), Python (Lab 3), and YAML (Lab 4) exercises into idempotent automation.
 
 ## Learning Goals
  
