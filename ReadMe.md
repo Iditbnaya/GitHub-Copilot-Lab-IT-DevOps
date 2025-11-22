@@ -24,17 +24,16 @@ Installations required for local runtimes:
 
 1. [Lab 1 – PowerShell Automation with Copilot](Lab1_PowerShell/README.md)
 2. [Lab 2 – Python Automation with Copilot](Lab2_Python/README.md)
-3. [Lab 3 – YAML & Config Generation](Lab2_YAML/README.md)
-4. [Lab 4 – Ansible Playbook with Copilot](Lab3_Ansible/README.md)
-5. [Lab 5 – GitHub Actions CI/CD](Lab4_GitHub_Actions/README.md)
-6. [Lab 6 – Copilot Agents](Lab5_Security.md)
+3. [Lab 3 – Ansible Playbooks with Copilot](Lab3_Ansible/README.md)
+4. [Lab 4 – GitHub Actions CI/CD with Copilot](Lab4_GitHub_Actions/README.md)
+5. [Lab 5 – Security Compliance as Code with Copilot](Lab5_Security/README.md)
 
 ## Environment Prerequisites
 
 - GitHub Copilot enabled in Visual Studio Code.
-- VS Code extensions: PowerShell, YAML, Ansible, GitHub Actions, GitHub Copilot Chat.
-- Local PowerShell 7+, Python 3.10+ with `ansible-core`, Docker Desktop (for runner/emulator targets).
-- Sample infrastructure target (VM, container, or emulator) with SSH access.
+- VS Code extensions: PowerShell, YAML, Ansible, GitHub Actions, GitHub Copilot Chat
+- Local PowerShell 7+, Python 3.10+ with `ansible-core`, WSL(For Windows).
+- Sample infrastructure target (Local, VM, container, or emulator) with SSH access.
 
 ## Assessment & Deliverables
 
