@@ -1,4 +1,4 @@
-# Lab 2 – PowerShell Automation with Copilot
+# Lab 1 – PowerShell Automation with Copilot
 
 ## 🏛️Scenario
 
@@ -30,23 +30,28 @@ An operations team needs a reusable PowerShell toolkit that audits disk usage, l
 3. From the toolbar select Run - Run without debugging  or (F5) to  Run the script
 4. Use GitHub Copilot to add parameters for remote computer targets:
 
-**Copilot Chat**
+2. Open Copilot Chat (Ctrl+I) and ask:
 
-Open Copilot Chat (Ctrl+Shift+I) and ask:
+```text
+Change the free space to 20%
 ```
-How do I add a ComputerName parameter to my PowerShell script and use it for remote execution?
-```
-- The goal is to learn how Copilot can help you refactor your script to accept remote computer names as input, and use PowerShell remoting to audit disks on those computers.
 
-## Exercise 2 – Structured Logging & Error Handling
+- The goal is to learn how Copilot can help you refactor your script
+
+## Exercise 2 – Edit mode - Structured Logging & Error Handling
 
 Use Edit mode - Open Copilot chat Ctrl+shift+i
 Make sure in are in Edit mode and stand on the script file `DiskAudit.ps1`
 
-1. Ask Copilot to "Add ComputerName parameter to the PowerShell script and use it for remote execution"
-2. Ask Copilot to wrap the script in `Try/Catch` blocks.
+-Ask Copilot to:
 
+```text
+ Add ComputerName parameter to the PowerShell script and use it for remote execution
+ ```
 
+ ```text
+  wrap the script in `Try/Catch` blocks.
+```
 ## Exercise 3 – Ask mode
 
 1. Open script file script.ps1
@@ -54,18 +59,23 @@ Do you know what this script does?
 2. Change copilot mode to ask mode -make sure your context is the script file
 
 ![alt text](image.png)
-```
+
+3. Ask Copilot:
+
+```text
 Explain in plain English what this PowerShell script does?
 ```
-3. Run the script and check if you see files in the SystemReport folder.
 
-## Exercise 3 – Agent mode
+4. Run the script and check if you see files in the SystemReport folder.
+
+## Exercise 4 – Agent mode
 
 1. Change to  Agent mode - and ask copilot 
-```
+
+```text
 Add detailed comments to this script.
 ```
-```
+```text
 Refactor and optimize this script.
 ```
 2. Review the changes and keep them.
