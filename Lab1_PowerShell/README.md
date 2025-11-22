@@ -36,7 +36,7 @@ An operations team needs a reusable PowerShell toolkit that audits disk usage, l
 Change the free space to 20%
 ```
 
-- The goal is to learn how Copilot can help you refactor your script
+- The goal is to learn how Copilot can help you refactor your script using inline suggestions.
 
 ## Exercise 2 – Edit mode - Structured Logging & Error Handling
 
@@ -57,8 +57,7 @@ Make sure in are in Edit mode and stand on the script file `DiskAudit.ps1`
 1. Open script file script.ps1
 Do you know what this script does?
 2. Change copilot mode to ask mode -make sure your context is the script file
-
-![alt text](image.png)
+![alt text](image-1.png)
 
 3. Ask Copilot:
 
@@ -70,7 +69,11 @@ Explain in plain English what this PowerShell script does?
 
 ## Exercise 4 – Agent mode
 
-1. Change to  Agent mode - and ask copilot 
+1. Change to  Agent mode 
+
+![alt text](image.png)
+
+2. Ask Copilot Agent:
 
 ```text
 Add detailed comments to this script.
@@ -78,12 +81,12 @@ Add detailed comments to this script.
 ```text
 Refactor and optimize this script.
 ```
-2. Review the changes and keep them.
-3. Make sure the script is running.
-4. Ask Copilot to help you persist results as JSON
+3. Review the changes and keep them.
+4. Make sure the script is running.
+5. Ask Copilot to help you persist results as JSON
 ```
 persist all results from csv files to one JSON file
 ```
-4. Run the script and check if you see a json files with all the details in the SystemReport folder.
+6. Run the script and check if you see a json files with all the details in the SystemReport folder.
 
 🔥Lab 1 is complete! Proceed to Lab 2 – Python Automation with Copilot.
