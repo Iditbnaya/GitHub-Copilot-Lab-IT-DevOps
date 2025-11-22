@@ -43,6 +43,8 @@ Change the free space to 20%
 Use Edit mode - Open Copilot chat Ctrl+shift+i
 Make sure in are in Edit mode and stand on the script file `DiskAudit.ps1`
 
+![alt text](image-2.png)
+
 -Ask Copilot to:
 
 ```text
@@ -57,6 +59,7 @@ Make sure in are in Edit mode and stand on the script file `DiskAudit.ps1`
 1. Open script file script.ps1
 Do you know what this script does?
 2. Change copilot mode to ask mode -make sure your context is the script file
+
 ![alt text](image-1.png)
 
 3. Ask Copilot:
