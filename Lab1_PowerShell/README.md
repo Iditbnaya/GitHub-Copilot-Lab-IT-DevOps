@@ -28,7 +28,7 @@ An operations team needs a reusable PowerShell toolkit that audits disk usage, l
 ```
 2. Pause typing and observe Copilot's ghost text suggestion; accept with Tab if appropriate
 3. From the toolbar select Run - Run without debugging  or (F5) to  Run the script
-4. Use GitHub Copilot to add parameters for remote computer targets:
+4. Use GitHub Copilot to refactor the script to change the free space threshold from 15% to 20%.:
 
 2. Open Copilot Chat (Ctrl+I) and ask:
 

@@ -22,6 +22,7 @@ This is a **training lab repository** for teaching GitHub Copilot to infrastruct
 - ✅ Suggest improvements to user-written code when asked
 - ✅ Only generate code when the user types a prompt or creates a file
 
+
 ## Context
 - Files in `Lab*` folders contain **instructions**, not code to implement
 - Users are **learning** how to use Copilot - don't do the work for them
