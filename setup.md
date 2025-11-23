@@ -30,21 +30,18 @@ Choose one of the following:
   2. Select **Clone Git Repository**.
   3. Paste `https://github.com/Iditbnaya/GitHub-Copilot-Lab-IT-DevOps.git` and pick a local folder.
  ![alt text](docs/CloneRepo.gif)
+  4. Launch VS Code and choose **File → Open Folder…**.
+5. Select the cloned `GitHub-Copilot-Lab-IT-DevOps` directory.
+6. When prompted about making the folder trusted, select **Yes, I trust the authors**.
+or
+
+Create a new folder on your computer, open the folder in Vscode - File-Open Folder, then open the terminal in VS Code (`Ctrl+~`) and run:
 
   ```bash
   git clone https://github.com/Iditbnaya/GitHub-Copilot-Lab-IT-DevOps.git
   cd GitHub-Copilot-Lab-IT-DevOps
   ```
 
-  1. Click **File → Clone repository**.
-  2. Search for `GitHub-Copilot-Lab-IT-DevOps` under the `Iditbnaya` account.
-  3. Choose a local path and click **Clone**.
-
-## 4. Open the Workspace
-
-1. Launch VS Code and choose **File → Open Folder…**.
-2. Select the cloned `GitHub-Copilot-Lab-IT-DevOps` directory.
-3. When prompted about making the folder trusted, select **Yes, I trust the authors**.
 
 ## 5. Enable GitHub Copilot
 
